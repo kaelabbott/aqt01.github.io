@@ -1,3 +1,36 @@
-.main-navbar {
+#main-navbar {
   background:rgba(153,204,153, 0.4); /* 40% opacity*/
+
+  /* slow transition*/
+  -webkit-transition: all 1.5s ease;
+  -moz-transition: all 1.5s ease;
+  -o-transition: all 1.5s ease;
+  transition: all 1.5s ease;
 }
+
+#year-nav {
+  background-color: #00A8E6; 
+  opacity: 0.60;
+  
+}
+
+#year-nav  li a  {
+  color: white;
+    
+}
+
+#year-nav li.uk-active a, #year-nav li:hover a  {  
+  background-color: rgba(153,204,153,0.45);    
+}
+
+
+#year-nav li.uk-active  a  p   {
+ color: white;  
+ opacity: 1;
+}
+
+#someDiv{
+    
+}
+
+
