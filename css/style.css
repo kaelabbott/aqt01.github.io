@@ -8,6 +8,50 @@
   transition: all 1.5s ease;
 }
 
+#passage {
+  margin: 0px 0px 0px 50% ;
+}
+
+
+
+mark {
+  background-color: rgba(255,255,255, .7);
+  
+}
+
+#main-word {
+ color: rgba(0,0,0,0.7);
+}
+
+.main-buttons{  
+  opacity: 0.8;
+  letter-spacing: 1px;
+  background-color: rgba(255,255,255,0.1) ;
+
+  text-transform: uppercase;
+
+}
+
+
+#first-button {   
+  border: 2px solid #7BAECB ;
+}
+
+#second-button {  
+  
+  border: 2px solid #F8DE00 ;
+}
+
+
+#third-button {    
+   border: 2px solid #99CC99 ;
+}
+
+.main-buttons button a:hover {
+  background-color: rgba(255,255,255,0.6)  !important ;
+  background-image:none !important ;
+}
+
 #year-nav {
   background-color: #00A8E6; 
   opacity: 0.60;
