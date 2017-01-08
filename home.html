@@ -2,64 +2,72 @@
 
 
   <header>
+    <!-- Style css -->
+    <link rel="stylesheet" type="text/css" href="css/uikit.min.css"> 
+    <link rel="stylesheet" type="text/css" href="css/uikit.css"> 
 
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/css/uikit.min.css"> 
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/css/uikit.css"> 
-
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/css/components/slideshow.gradient.css"> 
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/css/components/slideshow.gradient.min.css"> 
+    <link rel="stylesheet" type="text/css" href="css/components/slideshow.gradient.css"> 
+    <link rel="stylesheet" type="text/css" href="css/components/slideshow.gradient.min.css"> 
     
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/css/components/slideshow.almost-flat.css">     
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/css/components/slideshow.almost-flat.min.css"> 
+    <link rel="stylesheet" type="text/css" href="css/components/slideshow.almost-flat.css">     
+    <link rel="stylesheet" type="text/css" href="css/components/slideshow.almost-flat.min.css"> 
     
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/css/components/slideshow.min.css"> 
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/css/components/slideshow.css"> 
+    <link rel="stylesheet" type="text/css" href="css/components/slideshow.min.css"> 
+    <link rel="stylesheet" type="text/css" href="css/components/slideshow.css"> 
 
 
     <!-- start: sticky -->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/css/components/sticky.almost-flat.css"> 
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/css/components/sticky.css"> 
+    <link rel="stylesheet" type="text/css" href="css/components/sticky.almost-flat.css"> 
+    <link rel="stylesheet" type="text/css" href="css/components/sticky.css"> 
 
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/css/components/sticky.gradient.css"> 
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/css/components/sticky.gradient.min.css"> 
+    <link rel="stylesheet" type="text/css" href="css/components/sticky.gradient.css"> 
+    <link rel="stylesheet" type="text/css" href="css/components/sticky.gradient.min.css"> 
 
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/css/components/sticky.min.css"> 
+    <link rel="stylesheet" type="text/css" href="css/components/sticky.min.css"> 
     
-
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
     
+    <!-- uikit specific -->
+    <script src="js/uikit.min.js"> </script>
+    <script src="js/uikit.js"> </script>
 
+    <script src="js/components/slideshow.min.js"> </script>
+    <script src="js/components/slideshow.js "> </script>
 
+    <script src="js/components/slideshow-fx.js"> </script>
+    <script src="js/components/slideshow-fx.min.js"> </script>
+
+    <script src="js/components/sticky.js"> </script>
+    <script src="js/components/sticky.min.js"> </script>
+
+    <script src="js/jquery.min.js"> </script>
     
     <link rel="stylesheet" type="text/css" href="css/style.css">   
+
+    
+   
     <!--  start: main menu     -->
     <div data-uk-sticky>
 
-      <nav class="uk-navbar main-navbar">
+      <nav id="main-nav" class="uk-navbar">
         <div class="uk-container uk-container-center" >
 
-          <ul class="uk-navbar-nav uk-margin-large-top uk-margin-large-bottom ">
+          <ul id="logo-nav" class="uk-navbar-nav uk-margin-large-top uk-margin-large-bottom ">
             <li > <a  href="/"><img  src="img/logo.png"  height="80px" width="100px" alt="logo"/></a> </li>          
           </ul>
 
-          <div class="uk-navbar-flip uk-margin-large-top uk-margin-large-bottom">
+          <div id="menu-nav" class="uk-navbar-flip uk-margin-large-top uk-margin-large-bottom">
             <ul class="uk-navbar-nav">
-              <li class="uk-parent uk-align-center" data-uk-dropdown="" aria-haspopup="true" aria-expanded="false">
-                <a href="">Parent</a>
-                  <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-bottom" aria-hidden="true" style="top: 40px; left: 0px;" tabindex="">
-                    <ul class="uk-nav uk-nav-navbar">
-                      <li><a href="#">Item</a></li>
-                      <li><a href="#">Another item</a></li>
-                      <li class="uk-nav-header">Header</li>
-                      <li><a href="#">Item</a></li>
-                      <li><a href="#">Another item</a></li>
-                      <li class="uk-nav-divider"></li>
-                      <li><a href="#">Separated item</a></li>
-                    </ul>
-                  </div>
+              <li  class=" uk-active uk-parent uk-align-center uk-active" data-uk-dropdown="" aria-haspopup="true" aria-expanded="false">
+                <a href="home.html">Inicio</a>              
 
               </li>
-              <li><a href="">Item</a></li>
-              <li class="uk-active"><a href="">Active</a></li>
+              <li> <a href="preaches.html"> Prédicas </a></li>
+              <li> <a href="events.html"> Eventos </a></li>              
+              <li> <a href="staff.html"> Staff </a></li>
+              <li> <a href="cbf.html"> Comunidad Bíblica De Fe </a></li>
             </ul>
           </div>
         </div>
@@ -79,9 +87,13 @@
               <canvas width="800" height="400" style="width: 100%; height: auto; opacity: 0.5;"></canvas>
               <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center">
                   <div>
-                      <h3>Overlay</h3>
+                      <h3> ¡Bienvenidos! </h3>
                       <p>Lorem <a href="#">ipsum dolor</a> sit amet, consetetur sadipscing elitr,<br>sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
-                      <button class="uk-button uk-button-primary">Button</button>
+                      <button class="uk-button uk-button-primary"> Cónocenos </button>
+                      <button class="uk-button uk-button-primary"> Mira nuestras prédicas </button>
+                      <button class="uk-button uk-button-primary"> Síguenos</button>
+
+
                   </div>
               </div>
           </li>
@@ -143,33 +155,72 @@
     </div>
     
      <!-- body part -->
+     
      <hr class="uk-grid-divider">
-     <div class="uk-margin-large-bottom uk-margin-large-top">
 
+      <div class="uk-margin-large-bottom uk-margin-large-top">
         <div class="uk-grid" data-uk-grid-margin>
+          <div class="uk-width-medium-1-3">
+            <img width="660" height="400" src="http://placehold.it/350x150/F0FFFF" alt="">
+          </div>        
 
-            <div class="uk-width-medium-1-3">
-                <img width="660" height="400" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjQsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkViZW5lXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iNjYwcHgiIGhlaWdodD0iNDAwcHgiIHZpZXdCb3g9IjAgMCA2NjAgNDAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA2NjAgNDAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxyZWN0IGZpbGw9IiNGNUY1RjUiIHdpZHRoPSI2NjAiIGhlaWdodD0iNDAwIi8+DQo8ZyBvcGFjaXR5PSIwLjciPg0KCTxwYXRoIGZpbGw9IiNEOEQ4RDgiIGQ9Ik0yNTguMTg0LDE0My41djExM2gxNDMuNjMydi0xMTNIMjU4LjE4NHogTTM5MC4yNDQsMjQ0LjI0N0gyNzAuNDM3di04OC40OTRoMTE5LjgwOEwzOTAuMjQ0LDI0NC4yNDcNCgkJTDM5MC4yNDQsMjQ0LjI0N3oiLz4NCgk8cG9seWdvbiBmaWxsPSIjRDhEOEQ4IiBwb2ludHM9IjI3Ni44ODEsMjM0LjcxNyAzMDEuNTcyLDIwOC43NjQgMzEwLjgyNCwyMTIuNzY4IDM0MC4wMTYsMTgxLjY4OCAzNTEuNTA1LDE5NS40MzQgDQoJCTM1Ni42ODksMTkyLjMwMyAzODQuNzQ2LDIzNC43MTcgCSIvPg0KCTxjaXJjbGUgZmlsbD0iI0Q4RDhEOCIgY3g9IjMwNS40MDUiIGN5PSIxNzguMjU3IiByPSIxMC43ODciLz4NCjwvZz4NCjwvc3ZnPg0K" alt="">
-            </div>
 
+
+          <div class="uk-width-medium-1-2">
+            <h1> Una iglesia organizada </h1>                  
+            <a class="uk-badge uk-badge-success"  href=""> Estudio familiar </a>  
+            <a class="uk-badge uk-badge-success"  href=""> Malaquias 2.5 </a>  
+            <a class="uk-badge uk-badge-success"  href=""> Fe </a>  
+            <h3> En esta entrega, estuvimos reflexionando acerca de Malaquías y el tema eclesiástico</h3>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="uk-margin-large-bottom uk-margin-large-top">
+        <div class="uk-grid" data-uk-grid-margin>
+          <div class="uk-width-medium-1-3">
+            <img width="660" height="400" src="http://placehold.it/350x150/F0FFFF" alt="">
+          </div>        
+          <div class="uk-width-medium-1-2">
+            <h1> Escogidos para su gloria </h1>                              
+            <a class="uk-badge"  href=""> Estudio bíblico </a>  
+            <a class="uk-badge"  href=""> Proverbios 5.15 </a>  
+            <a class="uk-badge"  href="">  </a>  
+            <h3> En esta entrega, estuvimos reflexionando acerca de Malaquías y el tema eclesiástico</h3>
             
 
-              <div class="uk-width-medium-1-2">
-                  <h1>Heading</h1>
-                  
-                  <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h3>
-                  <a class="uk-button uk-button-primary" href="#">Button</a>
-              </div>
-          
+          </div>
         </div> <!-- end body part -->
       </div>
+
+
+
+      <div class="uk-margin-large-bottom uk-margin-large-top">
+        <div class="uk-grid" data-uk-grid-margin>
+          <div class="uk-width-medium-1-3">
+            <img width="660" height="400" src="http://placehold.it/350x150/F0FFFF" alt="">
+          </div>        
+          <div class="uk-width-medium-1-2">
+            <h1> Escogidos para su gloria </h1>                              
+            <a class="uk-badge"  href=""> Estudio bíblico </a>  
+            <a class="uk-badge"  href=""> Proverbios 5.15 </a>  
+            <a class="uk-badge"  href="">  </a>  
+
+            <h3> En esta entrega, estuvimos reflexionando acerca de Malaquías y el tema eclesiástico</h3>
+            
+          </div>
+        </div> <!-- end body part -->
+      </div>
+
       
             <hr class="uk-grid-divider">
+            
             <!-- start:  -->
-            <h1 class="uk-text-center uk-margin-top-bottom"> Proceso del creyente </h1>
+            <h1 class="uk-text-center "> Proceso del creyente </h1>
 
-            <div class="uk-grid" data-uk-grid-margin>
-                <div class="uk-width-1-4 uk-width-medium-1-4 uk-width-large-1-4">
+            <div class="uk-grid uk-margin-top uk-margin-bottom" data-uk-grid-margin>
+                <div class="uk-width-1-4 uk-width-medium-1-4 uk-width-large-1-4 ">
                     <figure class="uk-overlay uk-overlay-hover">
                         <img width="350" height="150" src="http://placehold.it/350x150/FFFF00" alt="">
                        <figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center">
@@ -207,51 +258,67 @@
                         <a class="uk-position-cover" href="#"></a>
                     </figure>
                 </div>
-
             </div> <!-- end: member_process-->
+        
+        <hr class="uk-grid-divider ">
+          <div class="uk-grid">          
+            <div class="uk-width-1-1 uk-margin-top uk-margin-bottom"> 
+              <div class="uk-container uk-container-center">
+                <h1 class="uk-text-center"> ¡Síguenos! </h1>                                        
+                <!-- start: form container-->              
+                <form class="uk-form uk-form-width-medium"> 
+                  <div class="uk-form-icon">
+                    <input type="text" placeholder="Correo Electrónico" class="uk-form-width-medium" >
+                    <i class="uk-icon-envelope-o"></i>
+                  </div>
+                </form> <!-- end: mail form -->                        
+                
+                </div>
 
+                <div class="uk-width-1-1 uk-margin-top uk-margin-bottom"> 
+                
+              </div>
+            </div>
+            <div class="uk-container uk-container-center">                                 
+              <h4 class="uk-text-center"> Recibe noticias sobre nuestras actividades y últimas predicas </h4>
+            </div>
+          </div> <!-- end: form container -->          
         </div>
-
+      </div>
+    </div>
   </body>
 
 
 
-  <footer>
-
-       <!-- start Footer -->
+    <!-- start Footer -->
     <hr class="uk-grid-divider"></hr>
-    <footer class="uk-grid tm-footer uk-grid-divider uk-margin-large-left uk-margin-large-right">
-      <div class="uk-width-1-3">
-        <form class="uk-form">
-          <div class="uk-form-icon">
-            <input type="text" placeholder="Correo Electrónico" class="tm-text-input">
-            <i class="uk-icon-envelope-o"></i>
-          </div>
-        </form>
-      </div>
-      
-      <div class="uk-width-1-3">
+    <footer class=" uk-container uk-grid tm-footer  uk-margin-large-left uk-margin-large-right">      
+      <div class="uk-width-1-2">
+
         <h3>+809 200 8924</h3>
         <p>info@comunidadbf.org</p>
       </div>
 
-      <div class="uk-width-1-3 tm-address-lines">
+      <div class="uk-width-1-2 tm-address-lines">
         <p> Calle Rosario esq. San Juan Bautista </p>
        
         <p> Sector Renacimiento, Santo Domingo</p>
         <p> Republica Dominicana </p>
       </div>
     </footer>
+    
     <div class="uk-grid uk-margin-large-left uk-margin-large-right">
       <div class="uk-width-1-1">
-        <hr class="uk-grid-divider"></hr>
+        
       </div>
     </div>
 
- <section class="uk-grid uk-margin-large-bottom uk-margin-large-left uk-margin-large-right">
+
+    
+    <section class="uk-grid uk-margin-large-bottom uk-margin-large-left uk-margin-large-right">
       <div class="uk-width-1-5">
         <div class="uk-height-1-1 uk-vertical-align-middle">
-          <a href="/"><img src="img/logo.png"  height="80px" width="100px" alt="logo"/></a>
+          <a href="/"><img src="img/logo-no-text.png"  height="80px" width="100px" alt="logo"/></a>
         </div>
       </div>
       <div class="uk-width-1-5"></div>
@@ -280,17 +347,37 @@
       </div>
     </section>
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/uikit.min.js"> </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/uikit.js"> </script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/components/slideshow.min.js"> </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/components/slideshow.js "> </script>
+  <script>
+  $(document).ready(function() { 
+    $(window).scroll(function() {
+      if ($(document).scrollTop() > 100) {                
+        $('#menu-nav').removeClass('uk-margin-large-top uk-margin-large-bottom');
+        $('#logo-nav').removeClass('uk-margin-large-top uk-margin-large-bottom');             
+        $('#menu-nav').addClass('uk-margin-top ');
+        $('#logo-nav').addClass('uk-margin-top ');
+        // Resize image
+        $('#logo-nav').find('img').attr('height','60px');
+        $('#logo-nav').find('img').attr('width','80px');
+        // Change color
+        $('#main-nav').css('background','rgba(255,255,255, 0.6)');
+        
+      }
+      else {                            
+        $('#menu-nav').addClass('uk-margin-large-top uk-margin-large-bottom ');
+        $('#logo-nav').addClass('uk-margin-large-top uk-margin-large-bottom');
+        // Resize image
+        $('#logo-nav').find('img').attr('height','100px');
+        $('#logo-nav').find('img').attr('width','120px');
+        // Change color
+        $('#main-nav').css('background','rgba(214,235,214, 1)');
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/components/slideshow-fx.js"> </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/components/slideshow-fx.min.js"> </script>
+          }   
+      });
+  });
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/components/sticky.js"> </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/components/sticky.min.js"> </script>
+  </script>
+
 
   </footer>
 
