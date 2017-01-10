@@ -2,6 +2,8 @@
 
 
   <header>
+
+
     <!-- Style css -->
     <link rel="stylesheet" type="text/css" href="css/uikit.min.css"> 
     <link rel="stylesheet" type="text/css" href="css/uikit.css"> 
@@ -14,6 +16,27 @@
     
     <link rel="stylesheet" type="text/css" href="css/components/slideshow.min.css"> 
     <link rel="stylesheet" type="text/css" href="css/components/slideshow.css"> 
+
+
+    <!-- Font awesome -->
+    
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css"> 
+
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/fonts/FontAwesome.otf">
+
+
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/fonts/fontawesome-webfont.svg">
+
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/fonts/fontawesome-webfont.woff">
+
+
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/fonts/fontawesome-webfont.ttf">
+
+
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/fonts/fontawesome-webfont.woff2">
+
+
 
 
     <!-- start: sticky -->
@@ -46,6 +69,7 @@
     
     <link rel="stylesheet" type="text/css" href="css/style.css">   
 
+
     
    
     <!--  start: main menu     -->
@@ -60,14 +84,14 @@
 
           <div id="menu-nav" class="uk-navbar-flip uk-margin-large-top uk-margin-large-bottom">
             <ul class="uk-navbar-nav">
-              <li  class=" uk-active uk-parent uk-align-center uk-active" data-uk-dropdown="" aria-haspopup="true" aria-expanded="false">
+              <li  class=" uk-active uk-parent uk-align-center" data-uk-dropdown="" aria-haspopup="true" aria-expanded="false">
                 <a href="home.html">Inicio</a>              
 
               </li>
               <li> <a href="preaches.html"> Prédicas </a></li>
               <li> <a href="events.html"> Eventos </a></li>              
               <li> <a href="staff.html"> Staff </a></li>
-              <li> <a href="cbf.html"> Comunidad Bíblica De Fe </a></li>
+              <li  class="uk-active"> <a id="about-us-label" href="cbf.html"> Comunidad Bíblica De Fe </a></li>
             </ul>
           </div>
         </div>
@@ -96,8 +120,8 @@
                       
                       
                       
-                      <a button id="first-button" class="uk-button uk-button-primary main-buttons">Cónocenos </a>
-                      <a button id="second-button" class="uk-button uk-button-primary main-buttons">Mira nuestras prédicas </a>
+                      <a button id="first-button" class="uk-button uk-button-primary main-buttons">Conócenos</a>
+                      <a button id="second-button" class="uk-button uk-button-primary main-buttons"> Mensajes </a>
                       <a button id="third-button" class="uk-button uk-button-primary main-buttons">Síguenos</a>
                       
 
@@ -159,18 +183,88 @@
     
      <!-- body part -->
      
-     <hr class="uk-grid-divider">
+      <hr class="uk-grid-divider">
       <div class="uk-container uk-container-center">
       <div class="uk-margin-large-bottom uk-margin-large-top">
 
+
+            <div class="uk-grid " data-uk-grid-margin>
+                <div class="uk-width-medium-1-3">
+                    <div class="uk-grid">
+                        <div class="uk-width-1-6">
+                            <i class="uk-icon-hand-paper-o  uk-icon-large uk-text-primary"></i>
+                        </div>
+                        <div id="purposes-text" class="uk-width-5-6">
+                            <h2 class="uk-h3"> Adoración  </h2>
+                            <p>Para alabar y glorificar a Dios en todos los servicios públicos y actividades especiales que realiza (Juan 4:24).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-medium-1-3">
+                    <div class="uk-grid">
+                        <div class="uk-width-1-6">
+                            <i class="uk-icon-bullhorn uk-icon-large uk-text-primary"></i>
+                        </div>
+                        <div id="purposes-text" class="uk-width-5-6">
+                            <h2 class="uk-h3"> Evangelismo </h2>
+                            <p>Para compartir las buenas nuevas de Jesucristo con las personas en nuestra comunidad, país y en todo el mundo (Mateo 28:18-20, Hechos 1:8, 2 Pedro 3:9) </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-medium-1-3">
+                    <div class="uk-grid">
+                        <div class="uk-width-1-6">
+                            <i class="uk-icon-book uk-icon-large uk-text-primary"></i>
+                        </div>
+                        <div id="purposes-text" class="uk-width-5-6">
+                            <h2 class="uk-h3"> Discipulado </h2>
+                            <p>Para ayudar a los miembros a desarrollarse, alcanzando la plena madurez cristiana y capacitarlos para un ministerio eficaz, donde se promueva el crecimiento espiritual a través de las enseñanzas de la Biblia (Efesios 4:11-13, Mateo 18:20, 2 Timoteo 2:1-2).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uk-grid" data-uk-grid-margin>
+                <div class="uk-width-medium-1-2">
+                    <div class="uk-grid">
+                        <div class="uk-width-1-6">
+                            <i class="uk-icon-dashboard uk-icon-large uk-text-primary"></i>
+                        </div>
+                        <div id="purposes-text" class="uk-width-5-6">
+                            <h2 class="uk-h3"> Misión </h2>
+                            <p>Servir desinteresadamente en nombre de Jesús, satisfaciendo las necesidades físicas, emocionales y espirituales de las personas de nuestra Iglesia, la comunidad, en el país y en el mundo (1 Pedro 4:10-11, Mateo 25:34-40, 1 Tesalonicenses 5:11, Gálatas 5:13).</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="uk-width-medium-1-2">
+                    <div class="uk-grid">
+                        <div class="uk-width-1-6">
+                            <i class="uk-icon-group uk-icon-large uk-text-primary"></i>
+                        </div>
+                        <div id="purposes-text" class="uk-width-5-6 uk-margin-bottom uk-margin-top">
+                            <h2 class="uk-h3"> Acción Social </h2>
+                            <p>Aportar a nuestra sociedad a través de ayuda solidaria  a los necesitados por medio de programas de solidaridad, enarbolando siempre los principios bíblicos, de equidad, amor, justicia, amparo, fraternidad y acción de gracias (1  de Juan 3:17, Jeremías 22:3, Santiago: 2:15-16).</p>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+
+        <hr class="uk-grid-divider "> </hr>
         <div class="uk-grid" data-uk-grid-margin>
           <div class="uk-width-medium-1-1">
             <div class="uk-container uk-container-center">
-              <h1> Mensajes </h1>
+              <h2 class="section-title"> Últimos mensajes </h2>   
             </div>
           </div>        
         </div>
 
+        
         <div class="uk-grid" data-uk-grid-margin>
           <div class="uk-width-medium-1-3">
             <img width="660" height="400" src="http://placehold.it/350x150/F0FFFF" alt="">
@@ -179,7 +273,7 @@
 
 
           <div class="uk-width-medium-1-2">
-            <h1> Una iglesia organizada </h1>                  
+            <h2 > Una iglesia organizada </h2>                  
             <a class="uk-badge uk-badge-success"  href=""> Estudio familiar </a>  
             <a class="uk-badge uk-badge-success"  href=""> Malaquias 2.5 </a>  
             <a class="uk-badge uk-badge-success"  href=""> Fe </a>  
@@ -195,7 +289,7 @@
             <img width="660" height="400" src="http://placehold.it/350x150/F0FFFF" alt="">
           </div>        
           <div class="uk-width-medium-1-2">
-            <h1> Escogidos para su gloria </h1>                              
+            <h2 > Escogidos para su gloria </h2>                              
             <a class="uk-badge"  href=""> Estudio bíblico </a>  
             <a class="uk-badge"  href=""> Proverbios 5.15 </a>  
             <a class="uk-badge"  href="">  </a>  
@@ -214,7 +308,7 @@
             <img width="660" height="400" src="http://placehold.it/350x150/F0FFFF" alt="">
           </div>        
           <div class="uk-width-medium-1-2">
-            <h1> Escogidos para su gloria </h1>                              
+            <h2 > Escogidos para su gloria </h2>                              
             <a class="uk-badge"  href=""> Estudio bíblico </a>  
             <a class="uk-badge"  href=""> Proverbios 5.15 </a>  
             <a class="uk-badge"  href="">  </a>  
@@ -224,11 +318,43 @@
           </div>
         </div> <!-- end body part -->
       </div>
+    </div>
 
-      
-            <hr class="uk-grid-divider">
-            
-            <!-- start:  -->
+      <figure class="uk-overlay">
+    <img class="main-image" src="img/follow-us.jpg" width="100%" height="20%" alt="">
+    <figcaption class="uk-overlay-panel uk-overlay-background uk-flex uk-flex-center uk-flex-middle uk-text-center">
+       
+      <div class="uk-container uk-container-center">
+
+        <div class="uk-width-1-1"> 
+          <h1 class="main-title uk-text-center"> ¡Síguenos! 
+          </h1>
+        </div>
+                  
+        <div class="uk-width-1-1 uk-margin-large-top uk-margin-bottom">
+          <form class="uk-form "> <!-- start: form container-->    
+            <fieldset data-uk-margin>            
+                <input type="text" placeholder="Correo Electrónico" class="uk-width-1-2">
+                <button class="uk-button uk-width-1-2"> Suscribirse </button>
+            </fieldset>
+          </form> <!-- end: mail form -->                 
+        </div>
+
+        <div class="uk-container uk-container-center"> 
+          <div class="uk-width-1-1 uk-margin-large-top uk-margin-bottom">                      
+            <h2 class="uk-text-center"> Recibe noticias sobre nuestras actividades y últimas predicas </h2>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </figcaption>
+</figure>
+
+              
+        <!-- start:  -->
             <h1 class="uk-text-center "> Proceso del creyente </h1>
 
             <div class="uk-grid uk-margin-top uk-margin-bottom" data-uk-grid-margin>
@@ -236,26 +362,16 @@
                     <figure class="uk-overlay uk-overlay-hover">
                         <img width="350" height="150" src="http://placehold.it/350x150/FFFF00" alt="">
                        <figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center">
-                            <div> proceso 1 </div>
+                            <div> Conversión </div>
                         </figcaption>
                         <a class="uk-position-cover" href="#"></a>
                     </figure>
                 </div>
                 <div class="uk-width-1-4 uk-width-medium-1-4 uk-width-large-1-4">
-                     <figure class="uk-overlay uk-overlay-hover">
-                        <img width="350" height="150" src="http://placehold.it/350x150/FF0000" alt="">
-                         <figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center">
-                            <div>Client Name</div>
-                        </figcaption>
-                        <a class="uk-position-cover" href="#"></a>
-                    </figure>
-                </div>
-
-                <div class="uk-width-1-4 uk-width-medium-1-4 uk-width-large-1-4">
-                     <figure class="uk-overlay uk-overlay-hover">
-                        <img width="350" height="150" src="http://placehold.it/350x150/0000FF" alt="">
-                        <figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center">
-                            <div>Client Name</div>
+                     <figure class="uk-overlay">
+                        <img class="uk-overlay-spin" width="350" height="150" src="img/studying.jpeg" alt="">
+                         <figcaption class="uk-overlay-panel uk-text-center  uk-flex  uk-flex-center ">
+                            <div> <h2 id="steps-text">  Discipulado </h2> </div>
                         </figcaption>
                         <a class="uk-position-cover" href="#"></a>
                     </figure>
@@ -263,38 +379,26 @@
 
                 <div class="uk-width-1-4 uk-width-medium-1-4 uk-width-large-1-4">
                      <figure class="uk-overlay uk-overlay-hover">
-                        <img width="350" height="150" src="http://placehold.it/350x150/00F0FF" alt="">
+                        <img width="350" height="150" src="img/baptism.jpeg" alt="">
+                        <figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center  uk-overlay-slide-top">
+                            <div> Bautizmo </div>
+                        </figcaption>
+                        <a class="uk-position-cover" href="#"></a>
+                    </figure>
+                </div>
+
+                <div class="uk-width-1-4 uk-width-medium-1-4 uk-width-large-1-4">
+                     <figure class="uk-overlay uk-overlay-hover">
+                        <img width="350" height="150" src="img/church.jpeg" alt="">
                         <figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center">
-                            <div>Client Name</div>
+                            <div> Pacto de membresía </div>
                         </figcaption>
                         <a class="uk-position-cover" href="#"></a>
                     </figure>
                 </div>
             </div> <!-- end: member_process-->
         
-        <hr class="uk-grid-divider ">
-          <div class="uk-grid">          
-            <div class="uk-width-1-1 uk-margin-top uk-margin-bottom"> 
-              <div class="uk-container uk-container-center">
-                <h1 class="uk-text-center"> ¡Síguenos! </h1>                                        
-                <!-- start: form container-->              
-                <form class="uk-form uk-form-width-medium"> 
-                  <div class="uk-form-icon">
-                    <input type="text" placeholder="Correo Electrónico" class="uk-form-width-medium" >
-                    <i class="uk-icon-envelope-o"></i>
-                  </div>
-                </form> <!-- end: mail form -->                        
-                
-                </div>
 
-                <div class="uk-width-1-1 uk-margin-top uk-margin-bottom"> 
-                
-              </div>
-            </div>
-            <div class="uk-container uk-container-center">                                 
-              <h4 class="uk-text-center"> Recibe noticias sobre nuestras actividades y últimas predicas </h4>
-            </div>
-          </div> <!-- end: form container -->          
         </div>
       </div>
     </div>
@@ -372,7 +476,7 @@
         $('#logo-nav').find('img').attr('height','60px');
         $('#logo-nav').find('img').attr('width','80px');
         // Change color
-        $('#main-nav').css('background','rgba(255,255,255, 0.6)');
+        $('#main-nav').css('background','rgba(255,255,255, 0.8)');
         
       }
       else {                            
