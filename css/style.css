@@ -1,5 +1,11 @@
+
+/* General styling */
+
+
+
+
 #main-navbar {
-  background:rgba(153,204,153, 0.4); /* 40% opacity*/
+  background:rgba(100,230,100, 0.6); /* 40% opacity*/
 
   /* slow transition*/
   -webkit-transition: all 1.5s ease;
@@ -8,54 +14,89 @@
   transition: all 1.5s ease;
 }
 
+#about-us-label {
+  background: rgba(153, 255, 0,.6);
+  color:white;
+  font-weight: bold ;
+
+}
+
 #passage {
   margin: 0px 0px 0px 50% ;
 }
-
-
 
 mark {
   background-color: rgba(255,255,255, .7);
   
 }
 
+#purposes-text h2 {
+  font-weight: bold; 
+
+}
 #main-word {
  color: rgba(0,0,0,0.7);
 }
 
 .main-buttons{  
-  opacity: 0.8;
+  opacity: 1;
   letter-spacing: 1px;
   background-color: rgba(255,255,255,0.1) ;
-
   text-transform: uppercase;
 
 }
 
-
-#first-button {   
-  border: 2px solid #7BAECB ;
+#first-button {
+  background-color: rgba(153, 255, 0,.8) ;  
+  border: 2px solid #99dd00  ;
 }
 
-#second-button {  
+#second-button {   
   
-  border: 2px solid #F8DE00 ;
+  background-color: rgba(123,174,203,1) ;
+  border: 2px solid #7baecb  ;
 }
 
 
-#third-button {    
-   border: 2px solid #99CC99 ;
+#third-button {
+  background-color: rgba(211,211,211,0.6) ;
+  border: 2px solid #d3d3d3 ;
 }
 
-.main-buttons button a:hover {
+.main-buttons  a:hover {
   background-color: rgba(255,255,255,0.6)  !important ;
   background-image:none !important ;
 }
 
+/* General class specfications */
+
+/*  Main image for every page that doenst include slideshow */
+
+.main-image {
+height: 85%;
+width: 100% ;
+}
+
+.sub-title {  
+  letter-spacing: 1px;  
+  font-style: italic;
+  font-size:15px;
+}
+
+.section-title {
+  font-weight:bold;    
+}
+
+
+
+/* Messages specific css */
 #year-nav {
   background-color: #00A8E6; 
   opacity: 0.60;
-  
+}
+
+.message-last-title{
+  text-align:left;
 }
 
 #year-nav  li a  {
@@ -63,8 +104,24 @@ mark {
     
 }
 
+/* Text on faith steps */
+#steps-text {
+  letter-spacing: 1px;
+  background-color: rgba(255,255,255,0.1) ;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 #year-nav li.uk-active a, #year-nav li:hover a  {  
   background-color: rgba(153,204,153,0.45);    
+}
+
+.main-title {
+  letter-spacing: 2px;
+  background-color: rgba(255,255,255,0.05) ;
+  text-transform: uppercase;
+  font-weight: bold;
+
 }
 
 
