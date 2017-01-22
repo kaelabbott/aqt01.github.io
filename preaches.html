@@ -160,7 +160,20 @@
             <option> 2015</option>
             <option> 2016</option>
         </select>
-          <div class="uk-button-dropdown" data-uk-dropdown="{delay: 500}" aria-haspopup="true" aria-expanded="false">
+              <div class="uk-button-dropdown" data-uk-dropdown="{delay: 500}" aria-haspopup="true" aria-expanded="false">
+                <button class="uk-button"> Trimestre <i class="uk-icon-caret-down"></i></button>
+                  <!-- start: month button -->
+                  <div class="uk-dropdown uk-dropdown-bottom" aria-hidden="true" style="top: 30px; left: 0px;" tabindex="">
+                    <ul class="uk-nav uk-nav-dropdown">
+                      <li><a href="#"> Enero - Marzo             </a></li>
+                      <li><a href="#"> Abril - Junio             </a></li>
+                      <li><a href="#"> Agosto - Octubre          </a></li>
+                      <li><a href="#"> Noviembre - Diciembre     </a></li>
+                    </ul>
+                  </div> <!-- end: month button -->
+              </div>
+
+          <div class="uk-button-dropdown" data-uk-dropdown="{delay: 100}" aria-haspopup="true" aria-expanded="false">
                 <button class="uk-button"> Año <i class="uk-icon-caret-down"></i></button>
                   <!-- start: year button -->
                   <div class="uk-dropdown uk-dropdown-bottom" aria-hidden="true" style="top: 30px; left: 0px;" tabindex="">
