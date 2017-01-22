@@ -153,13 +153,26 @@
 
 
     <fieldset data-uk-margin>
-        <legend> ... </legend>
+        <legend> Año </legend>
         <input type="text" placeholder="Buscar">
-        <input type="password" placeholder="">
-        <select>
+        
+        <select> Año 
             <option> 2015</option>
             <option> 2016</option>
         </select>
+          <div class="uk-button-dropdown" data-uk-dropdown="{delay: 500}" aria-haspopup="true" aria-expanded="false">
+                <button class="uk-button"> Año <i class="uk-icon-caret-down"></i></button>
+                  <!-- start: year button -->
+                  <div class="uk-dropdown uk-dropdown-bottom" aria-hidden="true" style="top: 30px; left: 0px;" tabindex="">
+                    <ul class="uk-nav uk-nav-dropdown">
+                      <li><a href="#"> 2014             </a></li>
+                      <li><a href="#"> 2015             </a></li>
+                      <li><a href="#"> 2016             </a></li>
+                      <li><a href="#"> 2017             </a></li>
+                    </ul>
+                  </div> <!-- end: year button -->
+              </div>
+
         <button class="uk-button">...</button>
         <label><input type="checkbox"> ...</label>
     </fieldset>
