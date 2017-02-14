@@ -8,33 +8,21 @@
     <!-- Style css -->
     <link rel="stylesheet" type="text/css" href="css/uikit.min.css"> 
     <link rel="stylesheet" type="text/css" href="css/uikit.css"> 
-
     <link rel="stylesheet" type="text/css" href="css/components/slideshow.gradient.css"> 
-    <link rel="stylesheet" type="text/css" href="css/components/slideshow.gradient.min.css"> 
-    
+    <link rel="stylesheet" type="text/css" href="css/components/slideshow.gradient.min.css">     
     <link rel="stylesheet" type="text/css" href="css/components/slideshow.almost-flat.css">     
-    <link rel="stylesheet" type="text/css" href="css/components/slideshow.almost-flat.min.css"> 
-    
+    <link rel="stylesheet" type="text/css" href="css/components/slideshow.almost-flat.min.css">     
     <link rel="stylesheet" type="text/css" href="css/components/slideshow.min.css"> 
     <link rel="stylesheet" type="text/css" href="css/components/slideshow.css"> 
 
 
-    <!-- Font awesome -->
-    
+    <!-- Font awesome -->    
     <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css"> 
     <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css"> 
-
     <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/fonts/FontAwesome.otf">
-
-
     <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/fonts/fontawesome-webfont.svg">
-
     <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/fonts/fontawesome-webfont.woff">
-
-
     <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/fonts/fontawesome-webfont.ttf">
-
-
     <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/fonts/fontawesome-webfont.woff2">
 
 
@@ -43,10 +31,8 @@
     <!-- start: sticky -->
     <link rel="stylesheet" type="text/css" href="css/components/sticky.almost-flat.css"> 
     <link rel="stylesheet" type="text/css" href="css/components/sticky.css"> 
-
     <link rel="stylesheet" type="text/css" href="css/components/sticky.gradient.css"> 
     <link rel="stylesheet" type="text/css" href="css/components/sticky.gradient.min.css"> 
-
     <link rel="stylesheet" type="text/css" href="css/components/sticky.min.css"> 
     
     <!-- jquery -->
@@ -57,43 +43,52 @@
     <!-- uikit specific -->
     <script src="js/uikit.min.js"> </script>
     <script src="js/uikit.js"> </script>
-
     <script src="js/components/slideshow.min.js"> </script>
     <script src="js/components/slideshow.js "> </script>
-
     <script src="js/components/slideshow-fx.js"> </script>
     <script src="js/components/slideshow-fx.min.js"> </script>
-
     <script src="js/components/sticky.js"> </script>
     <script src="js/components/sticky.min.js"> </script>
-
-    <script src="js/jquery.min.js"> </script>
+    <script src="js/jquery.min.js"> </script>    
     
     <link rel="stylesheet" type="text/css" href="css/style.css">   
 
 
     
    
-    <!--  start: main menu     -->
+    
     <div data-uk-sticky>
-
-      <nav id="main-nav" class="uk-navbar">
+      <!--  start: main menu     -->
+      <nav id="main-nav" class="uk-navbar"> 
         <div class="uk-container uk-container-center" >
-
           <ul id="logo-nav" class="uk-navbar-nav uk-margin-large-top uk-margin-large-bottom ">
             <li > <a  href="/"><img  src="img/logo-no-text.png"  height="80px" width="100px" alt="logo"/></a> </li>          
           </ul>
-
           <div id="menu-nav" class="uk-navbar-flip uk-margin-large-top uk-margin-large-bottom">
             <ul class="uk-navbar-nav">
               <li class=" uk-parent uk-align-center" data-uk-dropdown="" aria-haspopup="true" aria-expanded="false">
               <li class=" uk-parent uk-align-center" data-uk-dropdown="" aria-haspopup="true" aria-expanded="false">
                 <a href="index.html">Inicio</a>              
-
               </li>
               <li> <a href="preaches.html"> Prédicas </a></li>
               <li> <a href="events.html"> Eventos </a></li>              
               <li> <a href="staff.html"> Staff </a></li>
+
+              <li data-uk-dropdown="{mode:'click'}">
+                <!-- This is the nav item toggling the dropdown -->
+                <a href="">...</a>
+
+                <!-- This is the dropdown -->
+                <div class="uk-dropdown uk-dropdown-small">
+                  <ul class="uk-nav uk-nav-dropdown">
+                  <li><a href="">...</a></li>
+                  <li><a href="">...</a></li>
+              </ul>
+        </div>
+
+    </li>
+
+
               <li  class="uk-active"> <a id="about-us-label" href="cbf.html"> Comunidad Bíblica De Fe </a></li>
             </ul>
           </div>
@@ -105,96 +100,85 @@
 
 
   <body>
-
-  
-      <!-- start: main heading -->
+    <!-- start: main heading -->
     <figure class="uk-overlay">
       <img class="main-image" src="img/messages.jpg" >
       <figcaption class="uk-overlay-panel uk-flex uk-flex-bottom">
-      <div> <h1 class="main-title" >  mensajes y sermones </h1> </div>
+        <div> <h1 class="main-title" >  mensajes y sermones </h1> </div>
       </figcaption>
     </figure> <!-- end: main heading-->
 
   
 
-    
-     <!-- body part -->
-     
+      <!-- start: principles -->    
       <hr class="uk-grid-divider">
-      <div class="uk-container uk-container-center">
-      <div class="uk-margin-large-bottom uk-margin-large-top">
-
-
-           
-         <div class="uk-grid " data-uk-grid-margin>
-                <div class="uk-width-medium-1-3">
-                    <div class="uk-grid">
-                        <div class="uk-width-1-6">
-                            <i class="uk-icon-hand-paper-o  uk-icon-large uk-text-primary"></i>
-                        </div>
-                        <div id="purposes-text" class="uk-width-5-6">
-                            <h2 class="uk-h3"> Adoración  </h2>
-                            <p>Para alabar y glorificar a Dios en todos los servicios públicos y actividades especiales que realiza (Juan 4:24).</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="uk-width-medium-1-3">
-                    <div class="uk-grid">
-                        <div class="uk-width-1-6">
-                            <i class="uk-icon-bullhorn uk-icon-large uk-text-primary"></i>
-                        </div>
-                        <div id="purposes-text" class="uk-width-5-6">
-                            <h2 class="uk-h3"> Evangelismo </h2>
-                            <p>Para compartir las buenas nuevas de Jesucristo con las personas en nuestra comunidad, país y en todo el mundo (Mateo 28:18-20, Hechos 1:8, 2 Pedro 3:9) </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="uk-width-medium-1-3">
-                    <div class="uk-grid">
-                        <div class="uk-width-1-6">
-                            <i class="uk-icon-book uk-icon-large uk-text-primary"></i>
-                        </div>
-                        <div id="purposes-text" class="uk-width-5-6">
-                            <h2 class="uk-h3"> Discipulado </h2>
-                            <p>Para ayudar a los miembros a desarrollarse, alcanzando la plena madurez cristiana y capacitarlos para un ministerio eficaz, donde se promueva el crecimiento espiritual a través de las enseñanzas de la Biblia (Efesios 4:11-13, Mateo 18:20, 2 Timoteo 2:1-2).</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="uk-grid" data-uk-grid-margin>
-                <div class="uk-width-1-2">
-                    <div class="uk-grid">
-                        <div class="uk-width-1-6">
-                            <i class="uk-icon-dashboard uk-icon-large uk-text-primary"></i>
-                        </div>
-                        <div id="purposes-text" class="uk-width-4-6">
-                            <h2 class="uk-h3"> Misión </h2>
-                            <p>Servir desinteresadamente en nombre de Jesús, satisfaciendo las necesidades físicas, emocionales y espirituales de las personas de nuestra Iglesia, la comunidad, en el país y en el mundo (1 Pedro 4:10-11, Mateo 25:34-40, 1 Tesalonicenses 5:11, Gálatas 5:13).</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="uk-width-1-2">
-                    <div class="uk-grid">
-                        <div class="uk-width-1-6">
-                            <i class="uk-icon-group uk-icon-large uk-text-primary"></i>
-                        </div>
-                        <div id="purposes-text" class="uk-width-4-6 uk-margin-bottom uk-margin-top">
-                            <h2 class="uk-h3"> Acción Social </h2>
-                            <p>Aportar a nuestra sociedad a través de ayuda solidaria  a los necesitados por medio de programas de solidaridad, enarbolando siempre los principios bíblicos, de equidad, amor, justicia, amparo, fraternidad y acción de gracias (1  de Juan 3:17, Jeremías 22:3, Santiago: 2:15-16).</p>
-                        </div>
-                    </div>
-                </div>
-
-                
-            </div>
-
-        <hr class="uk-grid-divider "> </hr>
+        <div class="uk-container uk-container-center">
+          <div class="uk-margin-large-bottom uk-margin-large-top"> 
+            <!-- start: first row -->
+            <div class="uk-grid " data-uk-grid-margin>
               
+              <div class="uk-width-medium-1-3">
+                  <div class="uk-grid">
+                      <div class="uk-width-1-6">
+                          <i class="uk-icon-hand-paper-o  uk-icon-large uk-text-primary"></i>
+                      </div>
+                      <div id="purposes-text" class="uk-width-5-6">
+                          <h2 class="uk-h3"> Adoración  </h2>
+                          <p>Para alabar y glorificar a Dios en todos los servicios públicos y actividades especiales que realiza (Juan 4:24).</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="uk-width-medium-1-3">
+                  <div class="uk-grid">
+                      <div class="uk-width-1-6">
+                          <i class="uk-icon-bullhorn uk-icon-large uk-text-primary"></i>
+                      </div>
+                      <div id="purposes-text" class="uk-width-5-6">
+                          <h2 class="uk-h3"> Evangelismo </h2>
+                          <p>Para compartir las buenas nuevas de Jesucristo con las personas en nuestra comunidad, país y en todo el mundo (Mateo 28:18-20, Hechos 1:8, 2 Pedro 3:9) </p>
+                      </div>
+                  </div>
+              </div>
+
+            <div class="uk-width-medium-1-3">
+              <div class="uk-grid">
+                <div class="uk-width-1-6">
+                  <i class="uk-icon-book uk-icon-large uk-text-primary"></i>
+                </div>
+                <div id="purposes-text" class="uk-width-5-6">
+                  <h2 class="uk-h3"> Discipulado </h2>
+                  <p>Para ayudar a los miembros a desarrollarse, alcanzando la plena madurez cristiana y capacitarlos para un ministerio eficaz, donde se promueva el crecimiento espiritual a través de las enseñanzas de la Biblia (Efesios 4:11-13, Mateo 18:20, 2 Timoteo 2:1-2).</p>
+                </div>
+              </div>
+            </div>
+          </div> <!-- end: first row-->
+
+          <div class="uk-grid" data-uk-grid-margin>
+            <div class="uk-width-1-2">
+              <div class="uk-grid">
+                  <div class="uk-width-1-6">
+                      <i class="uk-icon-dashboard uk-icon-large uk-text-primary"></i>
+                  </div>
+                  <div id="purposes-text" class="uk-width-4-6">
+                      <h2 class="uk-h3"> Misión </h2>
+                      <p>Servir desinteresadamente en nombre de Jesús, satisfaciendo las necesidades físicas, emocionales y espirituales de las personas de nuestra Iglesia, la comunidad, en el país y en el mundo (1 Pedro 4:10-11, Mateo 25:34-40, 1 Tesalonicenses 5:11, Gálatas 5:13).</p>
+                  </div>
+              </div>
+            </div>
+          <div class="uk-width-1-2">
+            <div class="uk-grid">
+                <div class="uk-width-1-6">
+                    <i class="uk-icon-group uk-icon-large uk-text-primary"></i>
+                </div>
+                <div id="purposes-text" class="uk-width-4-6 uk-margin-bottom uk-margin-top">
+                    <h2 class="uk-h3"> Acción Social </h2>
+                    <p>Aportar a nuestra sociedad a través de ayuda solidaria  a los necesitados por medio de programas de solidaridad, enarbolando siempre los principios bíblicos, de equidad, amor, justicia, amparo, fraternidad y acción de gracias (1  de Juan 3:17, Jeremías 22:3, Santiago: 2:15-16).</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <hr class="uk-grid-divider "> </hr> <!-- end: principles -->        
 
         
 
@@ -203,8 +187,7 @@
           <div class="uk-margin-large-top uk-margin-large-bottom ">
             <h1 class="uk-text-center"> Pastores </h1>        
             <div class="uk-grid" data-uk-grid-margin>
-            <div class="uk-width-1-1 uk-text-center">                    
-              <p class="uk-text-large"> Nuestros lideres </p>
+            <div class="uk-width-1-1 uk-text-center">  
             </div>
             </div>
           </div>
@@ -266,13 +249,9 @@
 
 
           <!-- start: main leader text -->
-          <div class="uk-margin-top uk-margin-top uk-margin-bottom">
-            <h1 class="uk-text-center"> Lideres </h1>        
-            <div class="uk-grid" data-uk-grid-margin>
-            <div class="uk-width-1-1 uk-text-center">                    
-              <p class="uk-text-large"> nuestros lideres </p>
-            </div>
-            </div>
+          <div class="uk-margin-large-top uk-margin-large-top-bottom">
+            <h1 class="uk-text-center"> Diáconos </h1>
+            
           </div>
           <!-- end: main leader text -->
 
