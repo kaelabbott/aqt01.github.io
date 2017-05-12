@@ -6,4 +6,4 @@ Inspiration page
 https://12stone.com/
 
 Frontend
-https://getuikit.com/
+https://getuikit.com
